@@ -54,10 +54,6 @@ export const Details = () => {
             <td>{item.energy_100g}</td>
           </tr>        
           <tr>
-            <td>Omega_6_fat_100g</td>
-            <td>{item.omega_6_fat_100g}</td>
-          </tr>
-          <tr>
             <td>Fat_100g</td>
             <td>{item.fat_100g}</td>
           </tr>
