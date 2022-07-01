@@ -1,0 +1,21 @@
+.cont{
+    width: 70%;
+    margin: auto;
+}
+.cont>div{
+    display: flex;
+   margin-bottom: 5px;
+    gap: 15px;
+    padding: 3px;
+}
+
+.food{
+    margin-top: 10px;
+    
+}
+@media only screen and (max-width: 500px) {
+    .cont{
+        width: 95%;
+        margin: auto;
+    }
+  }

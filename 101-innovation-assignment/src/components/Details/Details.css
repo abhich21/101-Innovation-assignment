@@ -1,0 +1,28 @@
+.cont{
+    margin: auto;
+    width: 62%;
+}
+
+.cont>div{
+    display: flex;
+    gap: 18px;
+    
+}
+tr,th,td,thead,tbody{
+    border: 2px solid gray;
+    padding: 3px;
+}
+table{
+    margin-top: 23px;
+    border-collapse: collapse;
+    width: 62%;
+}
+@media only screen and (max-width: 500px) {
+    .cont{
+        margin: auto;
+        width: 98%;
+    }
+    table{
+        width: 100%;
+    }
+  }
